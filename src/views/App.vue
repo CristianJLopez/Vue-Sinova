@@ -8,9 +8,9 @@
 </template>
 
 <script>
-import headerComponente from "./components/Header";
-import formularioNuevoUsuario from "./components/FormRegistro";
-import footerComponente from "./components/Footer"
+import headerComponente from "../components/Header";
+import formularioNuevoUsuario from "../components/FormRegistro";
+import footerComponente from "../components/Footer"
 
 
 

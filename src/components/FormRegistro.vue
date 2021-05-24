@@ -51,10 +51,10 @@
 
         <b-form-group class="mt-5">
           <b-button type="submit" variant="success" class="mx-2"
-            >Crear</b-button
+           >Crear</b-button
           >
           <b-button type="reset" variant="danger" class="mx-2"
-            >Cancelar</b-button
+          >Cancelar</b-button
           >
         </b-form-group>
       </b-form>
@@ -86,7 +86,7 @@ export default {
   methods: {
     onSubmit(event) {
       event.preventDefault();
-      alert(JSON.stringify(this.form));
+      alert("Usuario: "+ JSON.stringify(this.form.name)+ " creado correctamente.");
       console.log(this.form);
     },
     onReset(event) {
@@ -102,6 +102,7 @@ export default {
       });
     },
   },
+  
 };
 </script>
 
