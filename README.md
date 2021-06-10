@@ -2,6 +2,11 @@
 
 ![Captureooooo](https://user-images.githubusercontent.com/58754599/119872441-1857d980-bee9-11eb-80d2-784ca07ca8e4.PNG)
 
+# View in mobile
+
+![scmovil](https://user-images.githubusercontent.com/58754599/121596147-b2994080-ca04-11eb-8566-60490667ff3e.png)
+
+
 ## Project setup
 ```
 yarn install
