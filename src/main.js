@@ -3,12 +3,14 @@ import { BootstrapVue, IconsPlugin } from "bootstrap-vue";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
 import PortalVue from 'portal-vue'
-import App from './views/App.vue'
+import App from './App.vue'
 import router from "./router"
+import VueRouter from 'vue-router';
 
 Vue.use(BootstrapVue)
 Vue.use(PortalVue)
 Vue.use(IconsPlugin)
+Vue.use(VueRouter)
 Vue.config.productionTip = false
 
 

@@ -1,16 +1,24 @@
 import Vue from "vue";
+import App from "./App.vue"
+import Otro from "./views/Otro.vue"
 import VueRouter from 'vue-router'
-import App from "./views/App.vue"
+
     
 Vue.use(VueRouter)
 
 
 const routes = [
-    {
-      path: "./views/App.vue",
-      name: "crearUsuarios",
-      component: App
-    }
+  {
+    path: "/",
+    name: "login",
+    component: App
+  },
+  {
+    path: "/otro",
+    name: "otro",
+    component: Otro
+  },
+  
   ];
 
 

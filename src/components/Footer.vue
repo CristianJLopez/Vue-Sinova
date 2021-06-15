@@ -1,8 +1,9 @@
 <template>
-    <div class="footer text-center text-white">
-        <footer id="footerComponente">
-            <p>Copyright SINAK, &copy; 2021</p>
+    <div class="footerComponente">
+        <footer max-width="100px">
+                <p>Copyright SINAK, &copy; 2021</p>
         </footer>
+        
     </div>
 </template>
 <script>
@@ -11,5 +12,10 @@ export default {
 }
 </script>
 <style>
-
+    .footerComponente{
+        background-color: #ff6b00 ;
+        text-align: center;
+        color: white;
+        bottom: 0%;
+    }
 </style>
